@@ -1,0 +1,36 @@
+#page-teacher {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-primary-dark);
+  background-image: url('../../assets/images/success-background.svg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+
+#page-teacher-content main{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#page-teacher-content a {
+  background: var(--color-secondary);
+  margin-top: 8rem;
+  height: 5.6rem;
+  width: 20rem;
+  color: white;
+  text-decoration: none;
+  margin-top: 3.2rem;
+  font: 700 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.8rem;
+}

@@ -11,6 +11,7 @@
   --color-text-in-primary: #D4C2FF;
   --color-text-title: #32264D;
   --color-text-complement: #9C98A6;
+  --color-text-complement-light: #9c98a6b9;
   --color-text-base: #6A6180;
   --color-line-in-white: #E6E6F0;
   --color-input-background: #F8F8FC;
@@ -44,7 +45,9 @@ body {
 body,
 input,
 button,
-textarea {
+textarea,
+select,
+option {
   font: 500 1.6rem Poppins;
   color: var(--color-text-base);
 }
