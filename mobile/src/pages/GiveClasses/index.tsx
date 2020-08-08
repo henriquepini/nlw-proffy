@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, ImageBackground, Text, Linking } from 'react-native';
+import { RectButton } from 'react-native-gesture-handler';
 
 import giveClassesBgImage from '../../assets/images/give-classes-background.png';
 
 import styles from './styles';
-import { RectButton } from 'react-native-gesture-handler';
 
 function GiveClasses() {
   const URL = "http://192.168.0.109:3000";
